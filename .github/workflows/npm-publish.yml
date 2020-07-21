@@ -15,8 +15,9 @@ jobs:
       with:
         node-version: 12
         registry-url: 'https://registry.npmjs.org'
+        scope: '@hebertpazian'
     - name: Publish
-      run: npm publish --access public
+      run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
     
