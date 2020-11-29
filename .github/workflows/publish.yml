@@ -8,14 +8,17 @@ jobs:
     name: "publish"
     runs-on: ubuntu-latest
     steps:
-      - name: "📚 checkout"
-        uses: actions/checkout@v2.1.1
-      - name: "🟢 node"
-        uses: actions/setup-node@v1.4.2
+      - name: "checkout"
+        uses: actions/checkout@v2
+      - name: "node"
+        uses: actions/setup-node@v1
         with:
-          node-version: latest
-          registry-url: https://registry.npmjs.org
-      - name: "🚀 publish"
+          node-version: 14
+      - name: "setup"
+        run: npm install
+      - name: "test"
+        run: npm test
+      - name: "publish"
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
