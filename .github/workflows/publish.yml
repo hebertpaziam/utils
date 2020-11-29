@@ -1,11 +1,11 @@
-name: "publish"
+name: "deploy"
 on:
   push:
     branches:
       - master
 jobs:
   release:
-    name: "publish"
+    name: "release"
     runs-on: ubuntu-latest
     steps:
       - name: "checkout"
@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-      - name: "setup"
+      - name: "installation"
         run: npm install
       - name: "test"
         run: npm test
