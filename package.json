@@ -1,22 +1,23 @@
 {
-  "name": "@hmp/utils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@hebertpazian/utils",
+  "version": "2.0.2",
+  "description": "Test",
+  "keywords": [],
+  "homepage": "https://www.npmjs.com/package/@hebertpazian/utils",
+  "bugs": {
+    "url": "https://github.com/hebertpazian/utils/issues"
   },
+  "license": "MIT",
+  "author": {
+    "name": "Hebert Paziam",
+    "email": "hebertpazian@hotmail.com"
+  },
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hebertpazian/hmp-utils.git"
+    "url": "https://github.com/hebertpazian/utils"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hebertpazian/hmp-utils/issues"
-  },
-  "homepage": "https://github.com/hebertpazian/hmp-utils#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
 }
