@@ -12,11 +12,14 @@
     "name": "Hebert Paziam",
     "email": "hebertpazian@hotmail.com"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/hebertpazian/utils"
   },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {},
   "dependencies": {},
   "devDependencies": {}
