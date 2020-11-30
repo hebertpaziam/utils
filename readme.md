@@ -13,5 +13,5 @@
 This package is installable from [npm][npm].
 
 ```bash
-npm install --save-dev @hebertpazian/utils
+npm install @hebertpazian/utils --save
 ```
