@@ -10,7 +10,7 @@
 
 ### 📦 Installation
 
-This package is installable from [npm][npm].
+This package is installable from [npm](https://www.npmjs.com/).
 
 ```bash
 npm install @hebertpazian/utils --save
