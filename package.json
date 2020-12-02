@@ -21,7 +21,7 @@
     "index.ts"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --runInBand"
   },
   "dependencies": {},
   "devDependencies": {
