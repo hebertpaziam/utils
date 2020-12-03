@@ -15,9 +15,7 @@ describe("Util FlattenObject", () => {
     },
   };
 
-  console.log(FlattenObject(data));
-
   it("should flatten object separating nasted objects with underscore", () => {
-    expect(data).toBeDefined();
+    expect(FlattenObject(data)).toStrictEqual({ a_b_c_d_x: today });
   });
 });

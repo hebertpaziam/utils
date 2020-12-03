@@ -55,4 +55,14 @@ describe("Util SanitizeObject", () => {
 
     expect(data).not.toHaveProperty("remove");
   });
+
+  it("should return same simple value", () => {
+    expect(SanitizeObject(data.date)).toBe(data.date);
+    expect(SanitizeObject(data.blob)).toBe(data.blob);
+    expect(SanitizeObject(data.falsy)).toBe(data.falsy);
+    expect(SanitizeObject(data.truthy)).toBe(data.truthy);
+    expect(SanitizeObject(data.emptyString)).toBe(data.emptyString);
+    expect(SanitizeObject(data.string)).toBe(data.string);
+    expect(SanitizeObject(data.function)).toBe(data.function);
+  });
 });

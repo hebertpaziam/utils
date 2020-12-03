@@ -3,7 +3,7 @@ export const DeepCopy = (data: any) => {
 
   const copy: Object = {};
   for (const key in data) {
-    if (data.hasOwnProperty(key)) copy[key] = DeepCopy(data[key]);
+    copy[key] = DeepCopy(data[key]);
   }
 
   return copy;
