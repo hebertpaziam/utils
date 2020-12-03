@@ -1,5 +1,5 @@
 module.exports = {
-  collectCoverageFrom: ["**/*.ts"],
+  collectCoverageFrom: ["src/**/*.ts"],
   testPathIgnorePatterns: ["<rootDir>/dist/", "<rootDir>/node_modules/"],
   globals: {
     "ts-jest": {

@@ -7,5 +7,5 @@ export const FlattenObject = (object: any, parent?: any, res = {}) => {
       FlattenObject(value, propName, res);
     } else res[propName] = value;
   }
-  return res as any;
+  return <any>res;
 };

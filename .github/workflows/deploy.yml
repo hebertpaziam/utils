@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@master
 
+      - name: Build
+        run: npm run build
+
       - name: Run Jest
         run: npm test
 

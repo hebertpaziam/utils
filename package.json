@@ -1,6 +1,6 @@
 {
   "name": "@hebertpazian/utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test",
   "keywords": [],
   "homepage": "https://www.npmjs.com/package/@hebertpazian/utils",
@@ -16,15 +16,16 @@
     "type": "git",
     "url": "https://github.com/hebertpazian/utils"
   },
-  "main": "index.ts",
-  "files": [
-    "index.ts"
-  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest --coverage --runInBand"
+    "test": "jest --coverage --runInBand",
+    "build": "npm run types && babel src -d dist --extensions '.ts'",
+    "types": "tsc -d -p tsconfig.json"
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
     "@babel/plugin-syntax-nullish-coalescing-operator": "^7.8.3",
     "@babel/plugin-syntax-optional-chaining": "^7.8.3",

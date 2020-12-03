@@ -6,7 +6,7 @@ describe("Util DownloadFile", () => {
   blob["lastModifiedDate"] = new Date();
   blob["name"] = content;
 
-  const file = blob as File;
+  const file = <File>blob;
   const anchor = document.createElement("a");
 
   beforeEach(() => {
