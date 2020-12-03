@@ -1,4 +1,4 @@
-import { Base64 } from '../src/base64.util';
+import { Base64 } from './base64';
 
 describe("Util Base64", () => {
   const data = new Date().toJSON();

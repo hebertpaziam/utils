@@ -1,6 +1,7 @@
 {
-  "extends": "./tsconfig.json",
-  "include": ["./src/**/*.ts", "./tests/**/*.spec.ts"],
+  "extends": "./tsconfig.base.json",
+  "include": ["**/*.spec.ts"],
+  "exclude": [],
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": ["jest"]

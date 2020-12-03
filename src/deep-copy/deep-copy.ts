@@ -1,5 +1,5 @@
 export const DeepCopy = (data: any) => {
-  if ({}.toString.apply(data) === "[object Object]") return data;
+  if (!/Object/.test({}.toString.apply(data))) return data;
 
   const copy: Object = {};
   for (const key in data) {

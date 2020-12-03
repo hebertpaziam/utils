@@ -1,5 +1,5 @@
 module.exports = {
-  coverageDirectory: "coverage",
+  collectCoverageFrom: ["**/*.ts"],
   testPathIgnorePatterns: ["<rootDir>/dist/", "<rootDir>/node_modules/"],
   globals: {
     "ts-jest": {

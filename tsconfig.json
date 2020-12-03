@@ -1,21 +1,11 @@
 {
-  "compileOnSave": false,
-  "include": ["./src/**/*.ts"],
-  "compilerOptions": {
-    "baseUrl": "./",
-    "declaration": false,
-    "downlevelIteration": true,
-    "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "lib": ["es2018", "dom", "esnext.asynciterable"],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "outDir": "./dist",
-    "removeComments": true,
-    "sourceMap": true,
-    "target": "ESNext",
-    "typeRoots": ["node_modules/@types"]
-  }
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-import { ConcatUniqueValues } from '../src/concat-unique.util';
+import { ConcatUniqueValues } from './concat-unique';
 
 describe("Util ConcatUniqueValues", () => {
   const data = [1, "lorem ipsum", true, {}, [], false, new Date()];

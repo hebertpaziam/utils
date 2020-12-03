@@ -1,6 +1,6 @@
 {
   "name": "@hebertpazian/utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test",
   "keywords": [],
   "homepage": "https://www.npmjs.com/package/@hebertpazian/utils",
@@ -26,9 +26,12 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/plugin-syntax-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-syntax-optional-chaining": "^7.8.3",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-typescript": "^7.12.7",
     "@types/jest": "^26.0.16",
+    "@types/node": "^14.14.10",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
     "ts-jest": "^26.4.4",
