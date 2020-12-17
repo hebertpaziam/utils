@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "description": "Test",
   "keywords": [],
-  "homepage": "https://www.npmjs.com/package/@hebertpazian/utils",
+  "homepage": "https://www.npmjs.com/package/@hebertpaziam/utils",
   "bugs": {
-    "url": "https://github.com/hebertpazian/utils/issues"
+    "url": "https://github.com/hebertpaziam/utils/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "Hebert Paziam",
-    "email": "hebertpazian@hotmail.com"
+    "name": "Hebert Marcos Paziam",
+    "email": "hebert.paziam@outlook.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hebertpazian/utils"
+    "url": "https://github.com/hebertpaziam/utils"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
